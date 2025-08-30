@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Share_Tech";
+    src: url(../fonts/Share_Tech/ShareTech-Regular.ttf) format("truetype");
+}
+
+#titulo_index {
+    background: linear-gradient(to right, #3d0000, #7e0411);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Share_Tech", sans-serif;
+}
+
+.menu_inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7e0411;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.menus{
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    padding: 2px;
+    border: 2px solid #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo_general_presupuesto {
+    display: flex;
+    background-color: #3d0000;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+#articulo1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #3d0000;
+    color: #3d0000;
+}
+
+#contacto_empresa_menu{
+    display: flex;
+    width: 100%;
+    height: 475px;
+    background-color: #ffffff;
+}
+
+#informacion_contacto{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    color: #7e0411;
+}
+
+#mapa_empresa{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#correo_icon{
+    display: flex;
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#informacion_contacto_informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#nombre_texto_contacto{
+    display: flex;
+    width: 300px;
+    border: 3px solid #7e0411;
+}
+
+#email_texto_contacto{
+    display: flex;
+    width: 300px;
+    border: 3px solid #7e0411;
+}
+
+#area_texto_contacto{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    resize: none;
+    border: 3px solid #7e0411;
+}
+
+#submit_texto_contacto{
+    margin-top: 10px;
+    color:#3d0000;
+    border-color: #3d0000;
+}
+
+footer {
+    background-color: #3d0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+#facebook_icon, #instagram_icon, #twitter_icon {
+    width: 1%;
+    height: 1%;
+}

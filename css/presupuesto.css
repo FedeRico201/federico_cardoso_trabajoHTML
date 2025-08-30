@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Share_Tech";
+    src: url(../fonts/Share_Tech/ShareTech-Regular.ttf) format("truetype");
+}
+
+#titulo_index {
+    background: linear-gradient(to right, #3d0000, #7e0411);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Share_Tech", sans-serif;
+}
+
+.menu_inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7e0411;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.menus{
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    padding: 2px;
+    border: 2px solid #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo_general_presupuesto {
+    display: flex;
+    background-color: #3d0000;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+#articulo1{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background-color: #3d0000;
+    color: #3d0000;
+}
+
+#background_video{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#background_video video{
+    width: 100%;
+    height: 100%;
+}
+
+#presupuesto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: #7e0411;
+    border: 2px solid black;
+}
+
+textarea{
+    width: 500px;
+    height: 75px;
+    resize: none;
+}
+
+.presupuesto_informacion {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+}
+
+#enviar_boton{
+    border-radius: 5px;
+    border: 2px solid #000000;
+    color: #7e0411;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #3d0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+#facebook_icon, #instagram_icon, #twitter_icon {
+    width: 1%;
+    height: 1%;
+}

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Share_Tech";
+    src: url(../fonts/Share_Tech/ShareTech-Regular.ttf) format("truetype");
+}
+
+#titulo_index {
+    background: linear-gradient(to right, #3d0000, #7e0411);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Share_Tech", sans-serif;
+}
+
+.menu_inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7e0411;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.menus{
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    padding: 2px;
+    border: 2px solid #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo_general_productos {
+    display: flex;
+    background-color: #3d0000;
+    color: #ffffff;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+.articulo1{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.productos_populares {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columnas iguales */
+    gap: 20px;
+    margin: 2px;
+    width: 100%;
+}
+
+.producto_popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.imagenes_productos_populares {
+    transition: transform 0.5s;
+    width: 90%;
+    height: 90%;
+}
+
+.imagenes_productos_populares:hover{
+    transform:scale(1.02)/* Aumenta el tamaño al pasar el mouse */
+}
+
+footer {
+    background-color: #3d0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+#facebook_icon, #instagram_icon, #twitter_icon {
+    width: 1%;
+    height: 1%;
+}
