@@ -12,7 +12,7 @@
     font-family: "Share_Tech", sans-serif;
 }
 
-.menu_inicio{
+#menus_inicio{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +36,10 @@ a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#menu_inicio_presupuesto{
+    color: orange;
+}
+
 #titulo_general_presupuesto {
     display: flex;
     background-color: #3d0000;
@@ -46,7 +50,7 @@ a:hover {
     font-size: 2em;
 }
 
-#articulo1{
+#seccion{
     position: relative;
     display:flex;
     flex-direction: column;
@@ -111,7 +115,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.footer-redes {
+#footer-redes {
     display: flex;
     justify-content: center;
     gap: 20px;

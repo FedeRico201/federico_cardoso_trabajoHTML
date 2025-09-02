@@ -5,51 +5,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TUFF Gaming</title>
         <link rel="stylesheet" href="../css/contacto.css">
-        <link rel="icon" type="image/png" href="images/icono_web.png">
+        <link rel="icon" type="image/png" href="../images/icono_web.png">
     </head>
     <body>
-        <header id="titulo_index"><h1>TUFF Gaming</h1></header>
-        <section>
 
-            <!-- Menú de navegación -->
-            <div class="menu_inicio">
+        <header id="titulo_index"><h1>TUFF Gaming</h1></header>
+        
+        <!-- Menú de navegación -->
+        <nav>
+            <div id="menus_inicio">
                 <div class="menus">
-                    <a href="../index.html" class="menu_inicio">Index</a>
+                    <a href="../index.html" id="menu_inicio_index">Index</a>
                 </div>
                 <div class="menus">
-                    <a href="productos.html" class="menu_inicio">Productos</a>
+                    <a href="productos.html" id="menu_inicio_productos">Productos</a>
                 </div>
                 <div class="menus">
-                    <a href="presupuesto.html" class="menu_inicio">Presupuesto</a>
+                    <a href="presupuesto.html" id="menu_inicio_presupuesto">Presupuesto</a>
                 </div>
                 <div class="menus">
-                    <a style="color: orange" href="contacto.html" class="menu_inicio">Contacto</a>
+                    <a href="contacto.html" id="menu_inicio_contacto">Contacto</a>
                 </div>
             </div>
-            <!-- Menú de navegación -->
+        </nav>
+        <!-- Menú de navegación -->
 
+        <section>
             <!-- Titulo del menu -->
             <div id="titulo_general_presupuesto">
                 <h2>Contactanos</h2>
             </div>
             <!-- Titulo del menu -->
 
-        <!-- Sección del contacto -->
-        <article>
-            <div id="articulo1">
+            <!-- Sección del contacto -->
+            <div id="section">
                 <div id="contacto_empresa_menu">
                     <!-- Formulario por email -->
-                    <div id="informacion_contacto">
-                        <h2>Contactanos por dudas</h2>
-                        <p>Recuerda que puedes contactar a nuestra empresa si tienes dudas o necesitas información adicional.</p>
-                        <img src="../images/correo_red_icon.png" alt="correo_icon" id="correo_icon">
-                        <div id="informacion_contacto_informacion">
-                            <input type="text" id="nombre_texto_contacto" placeholder="Nombre" required><br>
-                            <input type="email" id="email_texto_contacto" placeholder="Email" required><br>
-                            <textarea id="area_texto_contacto" placeholder="Escriba sus dudas" required></textarea>
-                            <button type="submit" id="submit_texto_contacto">Enviar</button>
+                    <form>
+                        <div id="informacion_contacto">
+                            <h2>Contactanos por dudas</h2>
+                            <p>Recuerda que puedes contactar a nuestra empresa si tienes dudas o necesitas información adicional.</p>
+                            <img src="../images/correo_red_icon.png" alt="correo_icon" id="correo_icon">
+                            <div id="informacion_contacto_informacion">
+                                <input type="text" id="nombre_texto_contacto" placeholder="Nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" required><br>
+                                <input type="email" id="email_texto_contacto" placeholder="Email" required><br>
+                                <textarea id="area_texto_contacto" placeholder="Escriba sus dudas" required></textarea>
+                                <button type="submit" id="submit_texto_contacto" onclick="alert('Texto Ejemplo')">Enviar</button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                     <!-- Formulario por email -->
 
                     <!-- Ubicación de la empresa -->
@@ -62,25 +66,26 @@
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
-                    <!-- Ubicación de la empresa -->
                     </div>
+                    <!-- Ubicación de la empresa -->
                 </div>
             </div>  
-        </article>
-        <!-- Sección del contacto -->
+            <!-- Sección del contacto -->
         </section>
+
+        <!-- Footer de la página -->
         <footer>
             <!-- Nuestros Contactos -->
             <p>Contact us at: <a href="mailto:TUFF_Gaming@tuffgaming.com">TUFF_Gaming@tuffgaming.com</a></p>
-            <div class="footer-redes">
-                <img src="../images/facebook_icon.png" alt="facebook icon" id="facebook_icon"><a href="https://www.facebook.com" target="_blank">Facebook</a>
-                <img src="../images/twitter_white_icon.png" alt="twitter icon" id="twitter_icon"><a href="https://www.twitter.com" target="_blank">Twitter</a>
-                <img src="../images/instagram_icon.png" alt="instagram icon" id="instagram_icon"><a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <div id="footer-redes">
+                <img src="../images/facebook_icon.png" alt="facebook icon" id="facebook_icon" width="512" height="512"><a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <img src="../images/twitter_white_icon.png" alt="twitter icon" id="twitter_icon" width="256" height="256"><a href="https://www.twitter.com" target="_blank">Twitter</a>
+                <img src="../images/instagram_icon.png" alt="instagram icon" id="instagram_icon" width="1200" height="1199"><a href="https://www.instagram.com" target="_blank">Instagram</a>
             </div>
             <!-- Nuestros Contactos -->
             <br>
             <!-- Sección de los derechos -->
-            <nav class="footer-nav">
+            <nav id="footer-derechos">
                 <a href="/aviso-legal.html">Aviso legal</a> |
                 <a href="/politica-privacidad.html">Política de privacidad</a> |
                 <a href="/politica-devolución">Política de devolución</a>
@@ -88,5 +93,7 @@
             </nav>
             <!-- Sección de los derechos -->
         </footer>
+        <!-- Footer de la página -->
+
     </body>
 </html>

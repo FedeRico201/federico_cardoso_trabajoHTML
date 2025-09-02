@@ -12,7 +12,7 @@
     font-family: "Share_Tech", sans-serif;
 }
 
-.menu_inicio{
+#menus_inicio{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,11 @@ a:hover {
     font-size: 2em;
 }
 
-#articulo1{
+#menu_inicio_contacto{
+    color: orange;
+}
+
+#section{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -127,7 +131,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.footer-redes {
+#footer-redes {
     display: flex;
     justify-content: center;
     gap: 20px;
